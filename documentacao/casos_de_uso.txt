@@ -1,1 +1,11 @@
 
+ATOR: Usuário
+
+CASOS DE USO:
+1.  Fazer Login
+2.  Cadastrar nova conta
+3.  Criar nova tarefa (Requisito: Estar logado)
+4.  Editar tarefa existente (Requisito: Ser dono da tarefa)
+5.  Excluir tarefa (Requisito: Ser dono da tarefa)
+6.  Marcar tarefa como concluída (Requisito: Ser dono da tarefa)
+7.  Listar tarefas (Requisito: Estar logado)
