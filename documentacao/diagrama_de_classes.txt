@@ -1,1 +1,15 @@
 
+[ CLASSE: Usuario ]
+- id: int (PK)
+- nome: string
+- email: string
+- senha: string (hashed)
++ tarefas: Lista<Tarefa>
+
+[ CLASSE: Tarefa ]
+- id: int (PK)
+- titulo: string
+- descricao: string (opcional)
+- status: string ("pendente", "concluida")
+- data_criacao: datetime
+- usuario_id: int (FK -> Usuario)
