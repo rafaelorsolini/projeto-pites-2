@@ -1,6 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head><title>PITES II - Em Construção</title></head>
-<body><h1>Projeto "Gerenciador de Tarefas" em andamento.</h1></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas - PITES II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Meu Gerenciador de Tarefas (PITES II)</h1>
+
+        <form action="/criar_tarefa" method="POST">
+            <h3>Nova Tarefa</h3>
+            <input type="text" name="titulo" placeholder="Título da tarefa..." required style="width: 70%;">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <hr>
+
+        <h2>Minhas Tarefas</h2>
+        
+        <ul class="task-list">
+            
+            <li class="task-item">
+                <span>Gravar vídeo PITES</span>
+                <div>
+                    <button style="background-color: #28a745; color: white;">Concluir</button>
+                    <button style="background-color: #dc3545; color: white;">Excluir</button>
+                </div>
+            </li>
+
+            <li class="task-item">
+                <span>Entregar atividade na plataforma</span>
+                <div>
+                    <button style="background-color: #28a745; color: white;">Concluir</button>
+                    <button style="background-color: #dc3545; color: white;">Excluir</button>
+                </div>
+            </li>
+
+            <li class="task-item">
+                <span style="text-decoration: line-through; color: #888;">Preencher o style.css</span>
+                <div>
+                    <button style="background-color: #6c757d; color: white;">Restaurar</button>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+</body>
 </html>
