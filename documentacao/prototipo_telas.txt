@@ -1,1 +1,18 @@
 
+TELA 1: Login
+- Campo: Email
+- Campo: Senha
+- Botão: Entrar
+- Link: "Cadastre-se"
+
+TELA 2: Cadastro
+- Campo: Nome
+- Campo: Email
+- Campo: Senha
+- Botão: Criar Conta
+
+TELA 3: Dashboard (Principal)
+- Título: "Minhas Tarefas"
+- Lista de tarefas pendentes (com checkbox, título, botão 'Editar', botão 'Excluir')
+- Lista de tarefas concluídas (com título e data)
+- Botão: "Adicionar Nova Tarefa" (abre um modal)
